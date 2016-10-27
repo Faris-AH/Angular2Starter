@@ -1,7 +1,7 @@
 import { NgModule }       from '@angular/core';
 import { CommonModule }   from '@angular/common';
 import { FormsModule }    from '@angular/forms';
-import {HttpModule} from "@angular/http";
+// import {HttpModule} from "@angular/http";
 
 
 import { UserLoginComponent }    from './user-login/user-login.component';
@@ -12,8 +12,8 @@ import { AuthService } from './auth.service';
 @NgModule({
     imports: [
         CommonModule,
-        FormsModule,
-        HttpModule
+        FormsModule
+
     ],
     declarations: [
         UserLoginComponent,

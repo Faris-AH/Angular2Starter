@@ -1,7 +1,6 @@
 import {Component} from '@angular/core';
 import {Router} from '@angular/router';
 
-import {User} from '../../models/user';
 
 @Component({
     selector: 'user-login',
@@ -9,13 +8,18 @@ import {User} from '../../models/user';
     templateUrl: './user-login.component.html'
 })
 export class UserLoginComponent {
-    user = new User("","john@gmail.com","123");
+
+    public user = {};
 
     constructor(private router:Router) {
-
+        this.user = {
+            name: '',
+            email: '',
+            password: ''
+        }
     }
 
-    goToHome(){
+    goToHome() {
         this.router.navigate(['/home']);
     }
 }
