@@ -22,4 +22,8 @@ export class UserLoginComponent {
     goToHome() {
         this.router.navigate(['/home']);
     }
+    goToSignUp(){
+        this.router.navigate(['/user-signup']);
+
+    }
 }

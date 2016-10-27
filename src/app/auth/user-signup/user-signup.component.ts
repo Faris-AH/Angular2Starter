@@ -32,4 +32,8 @@ export class UserSignupComponent {
                 localStorage.setItem('loginUser', JSON.stringify({ user: this.loginUser}));
             })
     }
+    goToLogin(){
+        this.router.navigate(['/user-login']);
+
+    }
 }

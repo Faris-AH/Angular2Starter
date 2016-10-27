@@ -29,3 +29,9 @@
 .container{
     height: 300px;
 }
+.back-to-signup{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+}
