@@ -1,0 +1,31 @@
+#login {
+    margin: 0 auto;
+    width: 50%;
+    background: #1976D2;
+    color: #ffffff;
+
+}
+.heading {
+    text-align: center;
+}
+.back-home{
+    float: right;
+}
+.field{
+    margin: 0 auto;
+    width: 50%;
+    padding: 6px 0;
+}
+.login-form{
+    margin: auto;
+    width: 50%;
+}
+.submit-btn{
+    width: 42px;
+    padding: 6px 0;
+    margin: 0 auto;
+
+}
+.container{
+    height: 300px;
+}

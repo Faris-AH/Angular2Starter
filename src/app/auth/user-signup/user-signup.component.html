@@ -1,0 +1,26 @@
+<div id="signUp">
+    <div class="container">
+        <h1 class="heading">Sign Up</h1>
+        <form class="signup-form" (ngSubmit)="onSignup()">
+            <div class="form-group field">
+                <label for="name">Name</label>
+                <input type="text" name="username" class="form-control" [(ngModel)]="user.name" id="name" required>
+            </div>
+            <div class="form-group field">
+                <label for="email">Email</label>
+                <input type="text"  name="email" class="form-control" [(ngModel)]="user.email" id="email">
+            </div>
+            <div class="form-group field">
+                <label for="password">Password</label>
+                <input type="password"  name="password" class="form-control" [(ngModel)]="user.password" id="password">
+            </div>
+            <div class="submit-btn">
+                <button type="submit" class="btn btn-default">Submit</button>
+
+            </div>
+        </form>
+    </div>
+
+
+    <button class="back-home" (click)="goToHome()">Back to Home</button>
+</div>
